@@ -150,9 +150,9 @@
             // 
             // btnConnect
             // 
-            this.btnConnect.Location = new System.Drawing.Point(628, 32);
+            this.btnConnect.Location = new System.Drawing.Point(616, 21);
             this.btnConnect.Name = "btnConnect";
-            this.btnConnect.Size = new System.Drawing.Size(160, 23);
+            this.btnConnect.Size = new System.Drawing.Size(172, 44);
             this.btnConnect.TabIndex = 14;
             this.btnConnect.Text = "Membuka Koneksi";
             this.btnConnect.UseVisualStyleBackColor = true;
@@ -160,9 +160,9 @@
             // 
             // btnLoad
             // 
-            this.btnLoad.Location = new System.Drawing.Point(628, 77);
+            this.btnLoad.Location = new System.Drawing.Point(616, 77);
             this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(160, 23);
+            this.btnLoad.Size = new System.Drawing.Size(172, 41);
             this.btnLoad.TabIndex = 15;
             this.btnLoad.Text = "Menampilkan Data";
             this.btnLoad.UseVisualStyleBackColor = true;
@@ -170,9 +170,9 @@
             // 
             // btnInsert
             // 
-            this.btnInsert.Location = new System.Drawing.Point(628, 124);
+            this.btnInsert.Location = new System.Drawing.Point(616, 138);
             this.btnInsert.Name = "btnInsert";
-            this.btnInsert.Size = new System.Drawing.Size(160, 23);
+            this.btnInsert.Size = new System.Drawing.Size(172, 42);
             this.btnInsert.TabIndex = 16;
             this.btnInsert.Text = "Menambah Data";
             this.btnInsert.UseVisualStyleBackColor = true;
@@ -180,9 +180,9 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(628, 172);
+            this.btnUpdate.Location = new System.Drawing.Point(616, 200);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(160, 23);
+            this.btnUpdate.Size = new System.Drawing.Size(172, 39);
             this.btnUpdate.TabIndex = 17;
             this.btnUpdate.Text = "Mengubah Data";
             this.btnUpdate.UseVisualStyleBackColor = true;
@@ -190,9 +190,9 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(628, 222);
+            this.btnDelete.Location = new System.Drawing.Point(616, 269);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(160, 23);
+            this.btnDelete.Size = new System.Drawing.Size(172, 44);
             this.btnDelete.TabIndex = 18;
             this.btnDelete.Text = "Menghapus Data";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -201,12 +201,13 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(321, 350);
+            this.dataGridView1.Location = new System.Drawing.Point(196, 352);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(455, 288);
+            this.dataGridView1.Size = new System.Drawing.Size(531, 199);
             this.dataGridView1.TabIndex = 19;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // Form1
             // 

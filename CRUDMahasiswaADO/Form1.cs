@@ -263,7 +263,7 @@ namespace CRUDMahasiswaADO
                 {
                     MessageBox.Show("Data berhasil diupdate!");
                     ClearForm();
-                    btnLoad.PerformClick();
+                    btnUpdate.PerformClick();
                 }
                 else
                 {
@@ -303,7 +303,11 @@ namespace CRUDMahasiswaADO
             txtNIM.Focus();
         }
 
-     }
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+    }
         
  }
 
